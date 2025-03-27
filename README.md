@@ -47,45 +47,5 @@ Example Interpretability Images:
 <img width="625" alt="image" src="https://github.com/user-attachments/assets/3446c990-78c8-4cb5-9b74-f4263dc8591c" />
 
 
-Installation & Usage
-Dependencies
-Ensure you have the following installed:
-
-bash
-Copy
-Edit
-pip install tensorflow keras numpy matplotlib opencv-python scikit-learn lime
-Running the Model
-bash
-Copy
-Edit
-python train_model.py
-(Modify this command based on your actual script.)
-
-Inference on a New X-ray Image
-bash
-Copy
-Edit
-python predict.py --image path/to/image.jpg
-Future Improvements
-Experiment with additional architectures (e.g., EfficientNet, Vision Transformers).
-
-Augment dataset for improved generalization.
-
-Improve interpretability using SHAP.
-
-Repository Structure
-bash
-Copy
-Edit
-/pneumonia-detection
-│── models/               # Trained models
-│── images/               # X-ray images & Grad-CAM results
-│── notebooks/            # Jupyter notebooks for training & analysis
-│── train_model.py        # Training script
-│── predict.py            # Inference script
-│── requirements.txt      # List of dependencies
-│── README.md             # Project documentation
-
 Acknowledgments
 Special thanks to https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia and the deep learning research community for guidance and resources.
